@@ -13,6 +13,12 @@
 		EEED08CA2C215DFC00F300EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEED08C82C215DFC00F300EC /* Main.storyboard */; };
 		EEED08CC2C215DFF00F300EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEED08CB2C215DFF00F300EC /* Assets.xcassets */; };
 		EEED08CF2C215DFF00F300EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEED08CD2C215DFF00F300EC /* LaunchScreen.storyboard */; };
+		EEED08D72C216F4500F300EC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED08D62C216F4500F300EC /* Article.swift */; };
+		EEED08DA2C21707C00F300EC /* RegularArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED08D82C21707C00F300EC /* RegularArticleCell.swift */; };
+		EEED08DB2C21707C00F300EC /* RegularArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEED08D92C21707C00F300EC /* RegularArticleCell.xib */; };
+		EEED08DE2C21709400F300EC /* VideoArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED08DC2C21709400F300EC /* VideoArticleCell.swift */; };
+		EEED08DF2C21709400F300EC /* VideoArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEED08DD2C21709400F300EC /* VideoArticleCell.xib */; };
+		EEED08E12C21977A00F300EC /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED08E02C21977A00F300EC /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		EEED08CB2C215DFF00F300EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEED08CE2C215DFF00F300EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEED08D02C215DFF00F300EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEED08D62C216F4500F300EC /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		EEED08D82C21707C00F300EC /* RegularArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularArticleCell.swift; sourceTree = "<group>"; };
+		EEED08D92C21707C00F300EC /* RegularArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegularArticleCell.xib; sourceTree = "<group>"; };
+		EEED08DC2C21709400F300EC /* VideoArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoArticleCell.swift; sourceTree = "<group>"; };
+		EEED08DD2C21709400F300EC /* VideoArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoArticleCell.xib; sourceTree = "<group>"; };
+		EEED08E02C21977A00F300EC /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				EEED08CB2C215DFF00F300EC /* Assets.xcassets */,
 				EEED08CD2C215DFF00F300EC /* LaunchScreen.storyboard */,
 				EEED08D02C215DFF00F300EC /* Info.plist */,
+				EEED08D62C216F4500F300EC /* Article.swift */,
+				EEED08D82C21707C00F300EC /* RegularArticleCell.swift */,
+				EEED08D92C21707C00F300EC /* RegularArticleCell.xib */,
+				EEED08DC2C21709400F300EC /* VideoArticleCell.swift */,
+				EEED08DD2C21709400F300EC /* VideoArticleCell.xib */,
+				EEED08E02C21977A00F300EC /* UIImageView+Extension.swift */,
 			);
 			path = DispachOneDemo;
 			sourceTree = "<group>";
@@ -126,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEED08CF2C215DFF00F300EC /* LaunchScreen.storyboard in Resources */,
+				EEED08DF2C21709400F300EC /* VideoArticleCell.xib in Resources */,
+				EEED08DB2C21707C00F300EC /* RegularArticleCell.xib in Resources */,
 				EEED08CC2C215DFF00F300EC /* Assets.xcassets in Resources */,
 				EEED08CA2C215DFC00F300EC /* Main.storyboard in Resources */,
 			);
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEED08DE2C21709400F300EC /* VideoArticleCell.swift in Sources */,
 				EEED08C72C215DFC00F300EC /* ViewController.swift in Sources */,
+				EEED08E12C21977A00F300EC /* UIImageView+Extension.swift in Sources */,
+				EEED08D72C216F4500F300EC /* Article.swift in Sources */,
 				EEED08C32C215DFC00F300EC /* AppDelegate.swift in Sources */,
 				EEED08C52C215DFC00F300EC /* SceneDelegate.swift in Sources */,
+				EEED08DA2C21707C00F300EC /* RegularArticleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
